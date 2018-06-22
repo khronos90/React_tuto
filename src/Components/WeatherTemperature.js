@@ -1,10 +1,12 @@
 import React from 'react';
+import WeatherIcons from 'react-weathericons';
 
 class WeatherTemperature extends React.Component{
     render(){
         return(
             <div>
-                <h3>Weather Temp</h3>
+                <WeatherIcons name="cloud" size="2x"/>
+                <span>Weather Temp</span>
             </div>
         );
     }
